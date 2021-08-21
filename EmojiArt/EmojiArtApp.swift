@@ -2,7 +2,8 @@
 //  EmojiArtApp.swift
 //  EmojiArt
 //
-//  Created by Pero Radich on 11.08.2021..
+//  Created by CS193p Instructor on 4/26/21.
+//  Copyright © 2021 Stanford University. All rights reserved.
 //
 
 import SwiftUI
@@ -10,6 +11,7 @@ import SwiftUI
 @main
 struct EmojiArtApp: App {
     let document = EmojiArtDocument()
+    let paletteStore = PaletteStore(named: "Default")
     
     var body: some Scene {
         WindowGroup {
