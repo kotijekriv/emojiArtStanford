@@ -19,6 +19,7 @@
 		A7A2894B26C43E9600651B64 /* UtilityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2894926C43E9600651B64 /* UtilityViews.swift */; };
 		A7C49A8A26D677DF00F3E6D7 /* PaletteChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C49A8926D677DF00F3E6D7 /* PaletteChooser.swift */; };
 		A7C49A8C26D7EFC600F3E6D7 /* PaletteEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C49A8B26D7EFC600F3E6D7 /* PaletteEditor.swift */; };
+		A7C49A8E26D8D2FE00F3E6D7 /* PaletteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C49A8D26D8D2FE00F3E6D7 /* PaletteManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A7A2894926C43E9600651B64 /* UtilityViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityViews.swift; sourceTree = "<group>"; };
 		A7C49A8926D677DF00F3E6D7 /* PaletteChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteChooser.swift; sourceTree = "<group>"; };
 		A7C49A8B26D7EFC600F3E6D7 /* PaletteEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteEditor.swift; sourceTree = "<group>"; };
+		A7C49A8D26D8D2FE00F3E6D7 /* PaletteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				A7A2893526C42A8700651B64 /* EmojiArtDocumentView.swift */,
 				A7C49A8926D677DF00F3E6D7 /* PaletteChooser.swift */,
 				A7C49A8B26D7EFC600F3E6D7 /* PaletteEditor.swift */,
+				A7C49A8D26D8D2FE00F3E6D7 /* PaletteManager.swift */,
 				A7A2894226C42C1800651B64 /* EmojiArtModel.swift */,
 				A7A2894626C43BCB00651B64 /* EmojiArtDocument.swift */,
 				A76BBA1626CFB2F700B76B17 /* PaletteStore.swift */,
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7A2894B26C43E9600651B64 /* UtilityViews.swift in Sources */,
+				A7C49A8E26D8D2FE00F3E6D7 /* PaletteManager.swift in Sources */,
 				A76BBA1726CFB2F700B76B17 /* PaletteStore.swift in Sources */,
 				A7C49A8C26D7EFC600F3E6D7 /* PaletteEditor.swift in Sources */,
 				A7A2893626C42A8700651B64 /* EmojiArtDocumentView.swift in Sources */,
