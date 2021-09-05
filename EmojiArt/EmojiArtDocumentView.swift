@@ -49,14 +49,17 @@ struct EmojiArtDocumentView: View {
                 // return Alert
                 alertToShow.alert()
             }
-            .onChange(of: document.backgroundImageFetchStatus, perform: { status in
+            .onChange(of: document.backgroundImageFetchStatus) { status in
                 switch status {
                 case .failed(let url):
                     showBackgroundImageFetchAlert(url)
                 default:
                     break
                 }
-            })
+            }
+            .onReceive(document.$backgroundImage) { image in
+                zoomToFit(image, in: geometry.size)
+            }
         }
     }
     

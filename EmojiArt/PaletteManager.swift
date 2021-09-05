@@ -46,7 +46,6 @@ struct PaletteManager: View {
                     }
                 }
             }
-            .environment(\.editMode, $editMode)
         }
         
     }

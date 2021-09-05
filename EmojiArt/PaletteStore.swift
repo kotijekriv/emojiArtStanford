@@ -94,4 +94,3 @@ class PaletteStore: ObservableObject {
         palettes.insert(palette, at: safeIndex)
     }
 }
-
